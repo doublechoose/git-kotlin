@@ -1,3 +1,4 @@
 <resources>
-  <string name="app_name">GitKotlin</string>
+    <string name="app_name">GitKotlin</string>
+    <string name="kotlin_base">kotlin基础</string>
 </resources>
