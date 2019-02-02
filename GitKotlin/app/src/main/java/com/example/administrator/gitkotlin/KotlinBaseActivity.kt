@@ -21,8 +21,13 @@ class KotlinBaseActivity : AppCompatActivity() {
         })
         val button2 = findViewById<Button>(R.id.bt_activity)
         button2.setOnClickListener {
-            val inten = Intent(KotlinBaseActivity@this,EventBusActivity::class.java)
-            KotlinBaseActivity@this.startActivity(inten)
+            val intent = Intent(KotlinBaseActivity@this,EventBusActivity::class.java)
+            KotlinBaseActivity@this.startActivity(intent)
+        }
+        val button3 = findViewById<Button>(R.id.bt_handler_and_looper)
+        button3.setOnClickListener {
+            val intent = Intent(KotlinBaseActivity@this,HandlerAndLooperActivity::class.java)
+            KotlinBaseActivity@this.startActivity(intent)
         }
     }
 }
